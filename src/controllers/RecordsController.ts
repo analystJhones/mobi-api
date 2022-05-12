@@ -45,22 +45,6 @@ class RecordsController {
         fromLine: 2,
         columns: headers,
         cast: castFunction
-        // cast: (columnValue, context) => {
-        //   if (context.column === 'velocidade') {
-        //     return parseInt(columnValue, 10);
-        //   }
-        //   if (context.column === 'latitude') {
-        //     return Number(columnValue);
-        //   }
-        //   if (context.column === 'longitude') {
-        //     return Number(columnValue);
-        //   }
-        //   if (context.column === 'ignicao') {
-        //     return columnValue === 'false' ? false : true;
-        //   }
-
-        //   return columnValue;
-        // }
       }, (error, result: Record[]) => {
         if (error) {
           reject(error);

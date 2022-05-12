@@ -50,19 +50,6 @@ class PointsController {
         fromLine: 2,
         columns: headers,
         cast: castFunction
-        // cast: (columnValue: string, context: { column: string; }) :  => {
-        //   if (context.column === 'raio') {
-        //     return parseInt(columnValue, 10);
-        //   }
-        //   if (context.column === 'latitude') {
-        //     return Number(columnValue);
-        //   }
-        //   if (context.column === 'longitude') {
-        //     return Number(columnValue);
-        //   }
-
-        //   return columnValue;
-        // }
       }, (error: any, result: Point[]) => {
         if (error) {
           reject(error);
