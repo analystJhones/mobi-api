@@ -26,7 +26,7 @@ class PointsController {
     return new Promise((resolve, reject) => {
 
       const csvFilePath = path.resolve(__dirname, '../../resources/points.csv');
-  
+
       const headers = ['nome', 'raio', 'latitude', 'longitude'];
 
       const fileContent = fs.readFileSync(csvFilePath, { encoding: 'utf-8' });
@@ -81,7 +81,7 @@ class PointsController {
       });
     })
   }
-  
+
   public getRecordsOfPoint(_id: string){
 
     return new Promise((resolve, reject) => {
