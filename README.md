@@ -41,8 +41,12 @@ Api para carregar as informções do Banco de Dados
 
 #### Acesso
 
-1) Para ter acesso a api do projeto executar o comando abaixo ou acessar diretamente o endereço **http://localhost:3000/points** no navegador:
+1) Para ter acesso a api do projeto executar o comando abaixo ou acessar diretamente o endereço **http://localhost:3000/** no navegador:
 
 ### Utilização
 
  Para auxiliar na utilização da API  foi disponibilizado uma collection do postman na pasta resource
+
+ Acessar as rotas para carregar os csv:
+  **http://localhost:3000/points/load**
+  **http://localhost:3000/record/load**

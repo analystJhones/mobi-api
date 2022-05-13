@@ -9,4 +9,8 @@ routes.use(cors());
 routes.use('/points', pointsRouter);
 routes.use('/records', recordsRouter);
 
+routes.get('/', (request, response) => {
+    response.send("WELCOME MOBI-API");
+});
+
 export default routes;
