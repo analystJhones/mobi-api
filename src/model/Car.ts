@@ -3,9 +3,9 @@ class  Car {
     placa: string;
     initialDate: string;
     finishDate:string;
-    duration: any;
+    duration: string;
 
-    constructor(placa: string, initialDate: string, finishDate: string, duration : any){
+    constructor(placa: string, initialDate: string, finishDate: string, duration : string){
         this.placa = placa;
         this.initialDate = initialDate;
         this.finishDate = finishDate;

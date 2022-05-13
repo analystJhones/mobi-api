@@ -1,0 +1,126 @@
+{
+	"info": {
+		"_postman_id": "c340e7c3-3c4e-43fc-a95e-3bc6aa3e6f68",
+		"name": "mobi-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "point",
+			"item": [
+				{
+					"name": "/points/getRecordsOfPoint/:id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/points/getRecordsOfPoint/:id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"points",
+								"getRecordsOfPoint",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "627c4e8ef99266ba3737e16f"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/points/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"points",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/load",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/points/load",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"points",
+								"load"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "record",
+			"item": [
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/records/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"records",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/load",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/records/load",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"records",
+								"load"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
